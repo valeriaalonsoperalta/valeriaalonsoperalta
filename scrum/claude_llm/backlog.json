@@ -1,0 +1,13 @@
+[
+{"id":"HU-01","titulo":"Registro e inicio de sesión","descripcion":"Como estudiante, quiero registrarme e iniciar sesión con mi email, para guardar mi progreso y acceder a mis cursos.","puntos":3},
+{"id":"HU-02","titulo":"Catálogo de cursos","descripcion":"Como estudiante, quiero ver un catálogo de cursos de programación con su nivel y lenguaje, para elegir qué aprender.","puntos":5},
+{"id":"HU-03","titulo":"Lecciones en vídeo y texto","descripcion":"Como estudiante, quiero ver las lecciones de un curso en vídeo y texto, para aprender los conceptos a mi ritmo.","puntos":5},
+{"id":"HU-04","titulo":"Inscripción en un curso","descripcion":"Como estudiante, quiero inscribirme en un curso con un clic, para tenerlo en mi panel y empezar a estudiar.","puntos":2},
+{"id":"HU-05","titulo":"Editor de código interactivo","descripcion":"Como estudiante, quiero escribir y ejecutar código en el navegador dentro de cada ejercicio, para practicar sin instalar nada.","puntos":8},
+{"id":"HU-06","titulo":"Corrección automática de ejercicios","descripcion":"Como estudiante, quiero que mis ejercicios se corrijan automáticamente con tests, para saber al instante si mi solución es correcta.","puntos":8},
+{"id":"HU-07","titulo":"Panel de progreso","descripcion":"Como estudiante, quiero ver mi progreso por curso y los ejercicios superados, para mantener la motivación.","puntos":5},
+{"id":"HU-08","titulo":"Búsqueda y filtros","descripcion":"Como estudiante, quiero buscar y filtrar cursos por lenguaje y nivel, para encontrar rápido lo que necesito.","puntos":3},
+{"id":"HU-09","titulo":"Foro de dudas por lección","descripcion":"Como estudiante, quiero publicar dudas en cada lección, para que otros estudiantes o el instructor me ayuden.","puntos":5},
+{"id":"HU-10","titulo":"Certificado de finalización","descripcion":"Como estudiante, quiero descargar un certificado al terminar un curso, para acreditar lo aprendido.","puntos":3},
+{"id":"HU-11","titulo":"Panel del instructor","descripcion":"Como instructor, quiero crear cursos, lecciones y ejercicios con sus tests, para publicar contenido en la plataforma.","puntos":8}
+]

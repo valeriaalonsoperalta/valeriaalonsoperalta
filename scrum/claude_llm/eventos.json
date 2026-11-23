@@ -1,0 +1,11 @@
+{
+"2":"¡Buen arranque! Gracias al pair programming, el registro con email y la validación de contraseña de la HU-01 ya funcionan en el entorno de desarrollo.",
+"3":"Duda del Product Owner: ¿el catálogo de la HU-02 debe mostrar también los cursos de pago? Tras una breve reunión se decide mostrar todos, con una etiqueta de precio.",
+"4":"¡BLOQUEO! El equipo de seguridad no ha aprobado el sandbox (contenedores aislados) para ejecutar el código de los estudiantes. La HU-05 no puede empezar hasta tener la aprobación.",
+"5":"¡Logro del equipo! La HU-01 (registro e inicio de sesión) supera las pruebas y cumple la Definition of Done.",
+"6":"Oportunidad: seguridad aprueba el sandbox con restricciones de red y memoria. El equipo integra Monaco Editor y la interfaz del editor de la HU-05 avanza muy rápido.",
+"7":"Problema técnico: el catálogo de la HU-02 tarda más de 4 segundos en cargar por las imágenes de los cursos. Se resuelve con paginación y miniaturas optimizadas.",
+"8":"¡Colaboración exitosa! La HU-02 (catálogo) y la HU-04 (inscripción) se completan y el Product Owner las valida en una demo informal.",
+"9":"¡BLOQUEO! La ejecución de código Python en el sandbox da timeouts intermitentes en el entorno de pruebas. La HU-05 no podrá cerrarse completamente en este sprint.",
+"10":"Último día: el editor de la HU-05 permite escribir código, pero la ejecución sigue inestable. El equipo documenta el problema y prepara la demo de la Sprint Review."
+}
