@@ -1,0 +1,22 @@
+# requirements.txt
+streamlit
+google-generativeai
+PyPDF2
+python-dotenv
+python-docx
+plotly
+requests
+pandas
+openpyxl
+reportlab
+pillow
+kaleido
+networkx
+matplotlib
+fpdf
+openai
+xlsxwriter
+PyMuPDF
+docxtpl
+werkzeug
+ics

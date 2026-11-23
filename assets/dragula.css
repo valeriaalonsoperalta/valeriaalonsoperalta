@@ -1,0 +1,16 @@
+/* dragula.css - Estilos bÃ¡sicos para drag-and-drop */
+.gu-mirror {
+  opacity: 0.8;
+  position: fixed !important;
+  margin: 0 !important;
+  z-index: 9999 !important;
+}
+.gu-hide {
+  display: none !important;
+}
+.gu-unselectable {
+  user-select: none !important;
+}
+.gu-transit {
+  opacity: 0.2;
+}
