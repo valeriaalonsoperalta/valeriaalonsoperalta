@@ -1,0 +1,97 @@
+[1] Análisis: Reunión de kickoff y planificación inicial
+- Preparar la agenda y los objetivos del kickoff
+- Presentar el equipo, los roles y el marco Scrum
+- Acordar la Definition of Done y la cadencia de los eventos
+[2] Análisis: Levantamiento de requisitos con stakeholders
+- Realizar entrevistas con negocio y atención al cliente
+- Identificar los perfiles de usuario de la app
+- Priorizar las necesidades en un Product Backlog inicial
+[3] Análisis: Especificación funcional (login, catálogo, carrito, checkout, pedidos, admin)
+- Redactar las historias de usuario de cada funcionalidad
+- Definir los criterios de aceptación
+- Validar la especificación con los stakeholders
+[4] Análisis: Arquitectura técnica e integración con Stripe
+- Definir la arquitectura de la app, la API y el panel web
+- Realizar una prueba de concepto de pago con Stripe
+- Documentar los modelos de datos principales
+[5] Diseño: Flujos UX y wireframes de la app móvil
+- Diseñar los flujos de navegación de compra
+- Crear wireframes de las pantallas principales
+- Probar los wireframes con usuarios
+[6] Diseño: UI y sistema visual de marca sostenible
+- Definir la paleta, la tipografía y la iconografía de la marca
+- Diseñar las pantallas en alta fidelidad
+- Crear la librería de componentes reutilizables
+[7] Diseño: Panel de administración web
+- Diseñar la gestión de productos y stock
+- Diseñar la gestión de pedidos y usuarios
+- Definir los roles y permisos del panel
+[8] Diseño: Validación de diseños con stakeholders
+- Presentar los diseños en una sesión de revisión
+- Recoger y priorizar el feedback
+- Obtener la aprobación formal de los diseños
+[9] Desarrollo: Configuración de entornos, repositorios y CI/CD
+- Crear los repositorios y la estrategia de ramas
+- Configurar los entornos de desarrollo, pruebas y producción
+- Configurar el pipeline de integración y despliegue continuo
+[10] Desarrollo: Backend y API (productos, usuarios, pedidos)
+- Implementar los endpoints de productos y catálogo
+- Implementar la gestión de usuarios y la autenticación
+- Implementar la gestión de pedidos
+- Documentar la API con OpenAPI
+[11] Desarrollo: Login y gestión de usuarios (iOS/Android)
+- Implementar el registro y el inicio de sesión
+- Implementar la recuperación de contraseña
+- Implementar la edición del perfil de usuario
+[12] Desarrollo: Catálogo con filtros y ficha de producto
+- Implementar el listado de productos con paginación
+- Implementar los filtros por talla, color, precio y material
+- Implementar la ficha de producto con galería de fotos
+[13] Desarrollo: Carrito de compras
+- Implementar añadir, eliminar y modificar cantidades
+- Persistir el carrito entre sesiones
+- Calcular subtotales y gastos de envío
+[14] Desarrollo: Checkout e integración de pasarela Stripe
+- Integrar el SDK de Stripe con 3D Secure
+- Implementar la confirmación del pedido y los webhooks
+- Gestionar errores de pago y reembolsos
+[15] Desarrollo: Historial de pedidos
+- Implementar el listado de pedidos del usuario
+- Mostrar el detalle y el estado de cada pedido
+- Permitir descargar la factura
+[16] Desarrollo: Panel de administración web
+- Implementar el CRUD de productos y stock
+- Implementar la gestión de pedidos
+- Implementar la gestión de usuarios y permisos
+[17] Pruebas: Plan de pruebas y casos de prueba
+- Definir la estrategia de pruebas automatizadas
+- Escribir los casos de prueba a partir de los criterios de aceptación
+- Preparar los datos de prueba
+[18] Pruebas: Pruebas funcionales y de integración
+- Automatizar las pruebas end-to-end del flujo de compra
+- Ejecutar las pruebas de integración de la API
+- Registrar y priorizar los defectos
+[19] Pruebas: Seguridad y pagos (Stripe)
+- Ejecutar pruebas de seguridad OWASP MASVS
+- Probar los escenarios de pago, rechazo y reembolso
+- Verificar que no se almacenan datos de tarjeta
+[20] Pruebas: Pruebas de aceptación de usuario (UAT)
+- Preparar los escenarios de UAT con negocio
+- Coordinar las sesiones con usuarios clave
+- Obtener la aceptación formal del producto
+[21] Pruebas: Corrección de errores
+- Corregir los defectos críticos y altos
+- Ejecutar las pruebas de regresión automatizadas
+- Verificar el cierre de los defectos
+[22] Lanzamiento: Publicación en App Store y Google Play
+- Preparar las fichas, capturas y la política de privacidad
+- Enviar las builds a revisión
+- Resolver las observaciones de las tiendas
+[23] Lanzamiento: Plan de marketing y comunicación
+- Definir los mensajes y canales del lanzamiento
+- Preparar la campaña en redes sociales y newsletter
+- Coordinar el calendario de comunicación
+[24] Lanzamiento: Go-live y soporte post-lanzamiento
+- Ejecutar el checklist de puesta en producción
+- Monitorizar errores, rendimiento y ventas
+- Atender las incidencias de las primeras semanas

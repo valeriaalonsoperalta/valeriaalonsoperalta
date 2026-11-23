@@ -1,0 +1,226 @@
+[
+ {
+  "id": "1",
+  "nombre": "Análisis: Reunión de kickoff y planificación inicial",
+  "duracion_horas": 16,
+  "dependencias": [],
+  "perfil": "Scrum Master"
+ },
+ {
+  "id": "2",
+  "nombre": "Análisis: Levantamiento de requisitos con stakeholders",
+  "duracion_horas": 40,
+  "dependencias": [
+   "1"
+  ],
+  "perfil": "Product Owner"
+ },
+ {
+  "id": "3",
+  "nombre": "Análisis: Especificación funcional (login, catálogo, carrito, checkout, pedidos, admin)",
+  "duracion_horas": 40,
+  "dependencias": [
+   "2"
+  ],
+  "perfil": "Product Owner"
+ },
+ {
+  "id": "4",
+  "nombre": "Análisis: Arquitectura técnica e integración con Stripe",
+  "duracion_horas": 32,
+  "dependencias": [
+   "2"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "5",
+  "nombre": "Diseño: Flujos UX y wireframes de la app móvil",
+  "duracion_horas": 56,
+  "dependencias": [
+   "3"
+  ],
+  "perfil": "UX Designer"
+ },
+ {
+  "id": "6",
+  "nombre": "Diseño: UI y sistema visual de marca sostenible",
+  "duracion_horas": 64,
+  "dependencias": [
+   "5"
+  ],
+  "perfil": "UX Designer"
+ },
+ {
+  "id": "7",
+  "nombre": "Diseño: Panel de administración web",
+  "duracion_horas": 32,
+  "dependencias": [
+   "5"
+  ],
+  "perfil": "UX Designer"
+ },
+ {
+  "id": "8",
+  "nombre": "Diseño: Validación de diseños con stakeholders",
+  "duracion_horas": 8,
+  "dependencias": [
+   "6",
+   "7"
+  ],
+  "perfil": "Scrum Master"
+ },
+ {
+  "id": "9",
+  "nombre": "Desarrollo: Configuración de entornos, repositorios y CI/CD",
+  "duracion_horas": 24,
+  "dependencias": [
+   "4"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "10",
+  "nombre": "Desarrollo: Backend y API (productos, usuarios, pedidos)",
+  "duracion_horas": 120,
+  "dependencias": [
+   "4",
+   "9"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "11",
+  "nombre": "Desarrollo: Login y gestión de usuarios (iOS/Android)",
+  "duracion_horas": 64,
+  "dependencias": [
+   "8",
+   "10"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "12",
+  "nombre": "Desarrollo: Catálogo con filtros y ficha de producto",
+  "duracion_horas": 96,
+  "dependencias": [
+   "8",
+   "10"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "13",
+  "nombre": "Desarrollo: Carrito de compras",
+  "duracion_horas": 48,
+  "dependencias": [
+   "12"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "14",
+  "nombre": "Desarrollo: Checkout e integración de pasarela Stripe",
+  "duracion_horas": 80,
+  "dependencias": [
+   "11",
+   "13"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "15",
+  "nombre": "Desarrollo: Historial de pedidos",
+  "duracion_horas": 40,
+  "dependencias": [
+   "14"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "16",
+  "nombre": "Desarrollo: Panel de administración web",
+  "duracion_horas": 96,
+  "dependencias": [
+   "8",
+   "10"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "17",
+  "nombre": "Pruebas: Plan de pruebas y casos de prueba",
+  "duracion_horas": 24,
+  "dependencias": [
+   "3"
+  ],
+  "perfil": "QA Automation"
+ },
+ {
+  "id": "18",
+  "nombre": "Pruebas: Pruebas funcionales y de integración",
+  "duracion_horas": 80,
+  "dependencias": [
+   "15",
+   "16",
+   "17"
+  ],
+  "perfil": "QA Automation"
+ },
+ {
+  "id": "19",
+  "nombre": "Pruebas: Seguridad y pagos (Stripe)",
+  "duracion_horas": 32,
+  "dependencias": [
+   "14"
+  ],
+  "perfil": "QA Automation"
+ },
+ {
+  "id": "20",
+  "nombre": "Pruebas: Pruebas de aceptación de usuario (UAT)",
+  "duracion_horas": 32,
+  "dependencias": [
+   "18",
+   "19"
+  ],
+  "perfil": "Product Owner"
+ },
+ {
+  "id": "21",
+  "nombre": "Pruebas: Corrección de errores",
+  "duracion_horas": 48,
+  "dependencias": [
+   "20"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "22",
+  "nombre": "Lanzamiento: Publicación en App Store y Google Play",
+  "duracion_horas": 24,
+  "dependencias": [
+   "21"
+  ],
+  "perfil": "Full Stack Developer"
+ },
+ {
+  "id": "23",
+  "nombre": "Lanzamiento: Plan de marketing y comunicación",
+  "duracion_horas": 24,
+  "dependencias": [
+   "8"
+  ],
+  "perfil": "Product Owner"
+ },
+ {
+  "id": "24",
+  "nombre": "Lanzamiento: Go-live y soporte post-lanzamiento",
+  "duracion_horas": 40,
+  "dependencias": [
+   "22",
+   "23"
+  ],
+  "perfil": "Product Owner"
+ }
+]
