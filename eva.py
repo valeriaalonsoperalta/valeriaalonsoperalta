@@ -62,7 +62,8 @@ def calculate_evm(tasks_df, status_date=None):
     
     # Manejar valores infinitos y NaN
     tasks_df.replace([np.inf, -np.inf], np.nan, inplace=True)
-    tasks_df.fillna(0, inplace=True)
+    num_cols = tasks_df.select_dtypes(include='number').columns  # pandas 3: no rellenar fechas con 0
+    tasks_df[num_cols] = tasks_df[num_cols].fillna(0)
     
     # Calcular estimaciones
     tasks_df['ETC'] = (tasks_df['BAC'] - tasks_df['EV']) / tasks_df['CPI']  # Estimate to Complete
@@ -71,7 +72,8 @@ def calculate_evm(tasks_df, status_date=None):
     
     # Manejar nuevamente posibles divisiones por cero en estimaciones
     tasks_df.replace([np.inf, -np.inf], np.nan, inplace=True)
-    tasks_df.fillna(0, inplace=True)
+    num_cols = tasks_df.select_dtypes(include='number').columns  # pandas 3: no rellenar fechas con 0
+    tasks_df[num_cols] = tasks_df[num_cols].fillna(0)
     
     return tasks_df[['TaskID', 'Task', 'BAC', 'PV', 'EV', 'AC', 'CV', 'SV', 'CPI', 'SPI', 'ETC', 'EAC', 'VAC']]
 
